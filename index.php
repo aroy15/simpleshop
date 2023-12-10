@@ -172,63 +172,7 @@
                 </div>
 
                 <div class="col-md-12">
-                    <ul class="products columns-3">
-                        <li class="product-category product first  ">
-                            <a href="#">
-                                <img src="<?php echo get_template_directory_uri();?>/assets/img/pc1.jpg" alt="Clothing">
-                                <h2 class="woocommerce-loop-category__title">
-                                    Clothing
-                                    <!--<mark class="count">(14)</mark>-->
-                                </h2>
-                            </a>
-                        </li>
-                        <li class="product-category product">
-                            <a href="#">
-                                <img src="<?php echo get_template_directory_uri();?>/assets/img/pc2.jpg" alt="Decor">
-                                <h2 class="woocommerce-loop-category__title">
-                                    Decor
-                                    <!--<mark class="count">(1)</mark>-->
-                                </h2>
-                            </a>
-                        </li>
-                        <li class="product-category product last">
-                            <a href="#">
-                                <img src="<?php echo get_template_directory_uri();?>/assets/img/pc3.jpg" alt="Music">
-                                <h2 class="woocommerce-loop-category__title">
-                                    Music
-                                    <!--<mark class="count">(2)</mark>-->
-                                </h2>
-                            </a>
-                        </li>
-                        <li class="product-category product">
-                            <a href="#">
-                                <img src="<?php echo get_template_directory_uri();?>/assets/img/pc4.jpg" alt="Clothing">
-                                <h2 class="woocommerce-loop-category__title">
-                                    Clothing
-                                    <!--<mark class="count">(14)</mark>-->
-                                </h2>
-                            </a>
-                        </li>
-                        <li class="product-category product">
-                            <a href="#">
-                                <img src="<?php echo get_template_directory_uri();?>/assets/img/pc5.jpg" alt="Decor">
-                                <h2 class="woocommerce-loop-category__title">
-                                    Decor
-                                    <!--<mark class="count">(1)</mark>-->
-                                </h2>
-                            </a>
-                        </li>
-                        <li class="product-category product last">
-                            <a href="#">
-                                <img src="<?php echo get_template_directory_uri();?>/assets/img/pc1.jpg" alt="Music">
-                                <h2 class="woocommerce-loop-category__title">
-                                    Music
-                                    <!--<mark class="count">(2)</mark>-->
-                                </h2>
-                            </a>
-                        </li>
-
-                    </ul>
+                    <?php echo do_shortcode("[product_categories columns=3]");?>
                 </div>
             </div>
         </div>
