@@ -1,4 +1,5 @@
 <?php
+include_once ("inc/customizer/customizer-main.php");
 function simpleshop_setup(){
     load_theme_textdomain('simpleshop', get_template_directory().'/languages');
     add_theme_support('automatic-feed-links');
