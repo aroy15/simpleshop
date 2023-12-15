@@ -1,3 +1,8 @@
+<?php
+/**
+ * Template Name: Homepage
+ */
+?>
 <?php get_header();?>
 <!--hero section start-->
 <div id="home">
